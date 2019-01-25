@@ -2,6 +2,14 @@ body {
   background-color: white;
 }
 
+.between-borders {
+  width: 80%;
+  border-top: 0.4px solid #c48b8b;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
 .header {
   width: 100%;
   height: 320px;
@@ -38,34 +46,44 @@ p {
 }
 
 .top-follow {
-  display: block;
+  margin: auto;
 }
 
-.top-icons li {
-  font-size: 18px;
-  float: right;
+.top-icons {
+  width: 33%;
+}
+
+.under-follow {
+  margin-top: 32px;
+  margin-left: 10%;
+}
+
+.under-icons {
+  width: 40%;
 }
 
 li {
   list-style-type: none;
-}
-
-.top-icons {
-  display: inline-block;
-}
-
-.under-icons li {
-  font-size: 18px;
+  font-family: 'Fugaz One', cursive;
+  font-size: 25px;
   float: right;
 }
 
-.under-icons {
-  margin-left: 10%;
+li a {
+  color: black;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #c48b8b;
 }
 
 .icons {
-  width: 25%;
+  width: 48px;
+  height: 48px;
   float: left;
+  margin-right: 15px;
+  margin-top: -8px;
 }
 
 .first-alec {
@@ -90,15 +108,7 @@ h6 {
   text-align: center;
 }
 
-.between-borders {
-  width: 80%;
-  border-top: 0.4px solid #c48b8b;
-  margin-top: 4%;
-  margin-left: 10%;
-}
-
 .first-ryan {
   width: 50%;
   margin-left: 21.5%;
-  margin-top: 5%;
 }
