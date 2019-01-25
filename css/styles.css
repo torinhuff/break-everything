@@ -37,6 +37,37 @@ p {
   border-top: 26px solid #c48b8b;
 }
 
+.top-follow {
+  display: block;
+}
+
+.top-icons li {
+  font-size: 18px;
+  float: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+.top-icons {
+  display: inline-block;
+}
+
+.under-icons li {
+  font-size: 18px;
+  float: right;
+}
+
+.under-icons {
+  margin-left: 10%;
+}
+
+.icons {
+  width: 25%;
+  float: left;
+}
+
 .first-alec {
   display: block;
   width: 50%;
